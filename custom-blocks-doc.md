@@ -146,3 +146,31 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L82
 
 <hr>
+
+## Blocos de Adiconais para personalizações
+
+### 1 - yv-flex
+#### Props Aceitas:
+  - **className** = _String_ (opcional) - ( Adiciona uma classe no bloco para que seja possivel efetuar personalizações css mais elaboradas )
+  - **direction** = _String_ “row” | “column” (opcional) - ( Adiciona o atributo "flex-direction" ao css do componente/bloco )
+  - **wrap** = _String_ “wrap” | “nowrap” - ( Adiciona o atributo "flex-wrap" ao css do componente/bloco )
+  - **justifyContent** = _String_ “center” | “flex-start” | “flex-end” | “space-between” | “space-around” |“space-evenly” (opcional) - ( Adiciona o atributo "justify-content" ao css do componente/bloco )
+  - **alignItems** = _String_ “center” | “flex-start” | “flex-end” | “space-between” | “space-around” |“space-evenly” (opcional) - ( Adiciona o atributo "align-content" ao css do componente/bloco )
+  - **alignContent** = _String_ “center” | “flex-start” | “flex-end” | “space-between” | “space-around” | “stretch” (opcional) - ( Adiciona o atributo "align-content" ao css do componente/bloco )
+  - **width** = _String_ (opcional) - ( Adiciona o atributo "width" ao css do componente/bloco )
+  - **height** = _String_ (opcional) - ( Adiciona o atributo "height" ao css do componente/bloco )
+  - **marginTop** = _String_ (opcional) - ( Adiciona o atributo "margin-top" ao css do componente/bloco )
+  - **marginBottom** = _String_ (opcional) - ( Adiciona o atributo "margin-bottom" ao css do componente/bloco )
+  - **marginLeft** = _String_ (opcional) - ( Adiciona o atributo "margin-left" ao css do componente/bloco )
+  - **marginRight** = _String_ (opcional) - ( Adiciona o atributo "margin-right" ao css do componente/bloco )
+  - **paddingTop** = _String_ (opcional) - ( Adiciona o atributo "padding-top" ao css do componente/bloco )
+  - **paddingBottom** = _String_ (opcional) - ( Adiciona o atributo "padding-bottom" ao css do componente/bloco )
+  - **paddingLeft** = _String_ (opcional) - ( Adiciona o atributo "padding-left" ao css do componente/bloco )
+  - **paddingRight** = _String_ (opcional) - ( Adiciona o atributo "padding-right" ao css do componente/bloco )
+
+Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L206
+
+### 2 - yv-rich-text
+#### Props Aceitas:
+  - **text** = _String_ (opcional) - ( Retorna um texto desejado )
+  - **className** = _String_ (opcional) - ( Adiciona uma classe no bloco para que seja possivel efetuar personalizações css mais elaboradas )
