@@ -16,59 +16,6 @@
     ]
   },
 
-  "yv-testimonials":{
-    "children":[
-      "yv-title#testimonial",
-      "yv-testimonials-content"
-    ]
-  },
-
-  "yv-title#testimonial":{
-    "props":{
-      "text":"Depoimentos dos Clientes"
-    }
-  },
-
-  "yv-testimonials-content":{
-    "children":[
-      "yv-rating-stars",
-      "yv-date",
-      "yv-user-image",
-      "yv-user-name",
-      "yv-user-localization",
-      "yv-comment",
-      "yv-store-ratings"
-    ]
-  },
-
-  "yv-flex#slide":{
-    "props":{
-      "className":"testimonial-flex"
-    },
-    "children":[
-      "yv-rating-stars",
-      "yv-date",
-      "yv-user-image",
-      "yv-user-name",
-      "yv-user-localization",
-      "yv-comment",
-      "yv-store-ratings"
-    ]
-  },
-
-  "yv-user-localization":{
-    "props":{
-      "stateOnly": false,
-      "cityOnly": false 
-    }
-  },
-
-  "yv-user-name":{
-    "props":{
-      "initialsOnly": false
-    }
-  },
-
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {

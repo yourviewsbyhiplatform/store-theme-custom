@@ -16,14 +16,7 @@
     "props": {
       "blockClass": "productRating"
     },
-    "children": ["product-rating-inline"]
-  },
-  
-  "yv-product-rating-inline": {
-    "children": [
-      "yv-rating-stars", 
-      "yv-total-rating"
-    ]
+    "children": ["yv-product-rating-inline"]
   },
 
   "stack-layout#prodsum": {
