@@ -59,7 +59,6 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 <hr>
 
 ### 4 - yv-product-questions-and-answers
-
 #### Blocos Aceitos:
 - yv-title ( Retorna o titulo de acordo com o bloco pai )
   - Props Aceitas:
@@ -91,10 +90,58 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
             - **showDifference** = _Boolean_ (default = false) - ( Quando true, exibe "x dias/meses/anos atrás" ao invés da data padrão )
         - yv-comment ( Retorna o comentário da avaliação da loja de acordo com o bloco pai )
 
-Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L3
+Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L284
 
 <hr>
 
 ### 5 - yv-product-reviews
+#### Blocos Aceitos:
+- yv-title ( Retorna o titulo de acordo com o bloco pai )
+  - Props Aceitas:
+    - **text** = _String_ (opcional) - ( Recebe uma string para exibir no lugar do título )
+- yv-reviews-details ( Retorna apenas informações para os blocos filhos que exibe cada informação separada )
+  - Blocos Aceitos:
+    - yv-reviews-histogram ( Retorna apenas informações para os blocos filhos que exibe cada informação separada )
+      - yv-histogram-title ( Retorna o título do histograma )
+      - yv-histogram-bar ( Retorna a barra do histograma )
+      - yv-histogram-total ( Retorna o total de avaliações do histograma )
+    - yv-rating-stars ( Retorna as estrelas de acordo com o bloco pai )
+    - yv-rating-average ( Retorna um texto com a nota média da avaliação de acordo com o bloco pai )
+    - yv-total-rating ( Retorna um texto com o total de avaliações seguindo de um texto traduzido exemplo: "10 avaliações" )
+      - Props Aceitas:
+        - **numberOnly** = _Boolean_ (default = false) - ( Quando true, remove o texto "avaliações" que vem após o número total de avaliações )
+    - yv-reviews-recommend ( Retorna uma porcentagem de quantos usuários recomendam o produto atual )
+- yv-reviews-field-summary ( Retorna apenas informações para os blocos filhos que exibe cada informação separada )
+  - yv-field-summary-title ( Retorna o titulo das perguntas adicionais sobre o produto )
+  - yv-rating-stars ( Retorna as estrelas de acordo com o bloco pai )
+  - yv-rating-average ( Retorna um texto com a nota média da avaliação de acordo com o bloco pai )
+  - yv-total-rating ( Retorna um texto com o total de avaliações seguindo de um texto traduzido exemplo: "10 avaliações" )
+    - Props Aceitas:
+      - **numberOnly** = _Boolean_ (default = false) - ( Quando true, remove o texto "avaliações" que vem após o número total de avaliações )
+- yv-reviews-content ( Retorna apenas informações para os blocos filhos que exibe cada informação separada )
+  - yv-content-review ( Retorna apenas informações para os blocos filhos que exibe cada informação separada )
+    - yv-rating-stars ( Retorna as estrelas de acordo com o bloco pai )
+    - yv-comment ( Retorna o comentário da avaliação da loja de acordo com o bloco pai )
+    - yv-custom-fields ( Retorna as perguntas e respostas adicionais de cada avaliação )
+    - yv-user-image ( Retorna foto ou avatar de acordo com o bloco pai )
+    - yv-user-name ( Retorna o nome do usuário de acordo com o bloco pai )
+      - Props Aceitas:
+        - **initialsOnly** = _Boolean_ (default = false) - ( Quando true, exibe apenas as iniciais do nome )
+    - yv-user-localization ( Retorna a localização do usuário de acordo com o bloco pai )
+      - Props Aceitas:
+        - **stateOnly** = _Boolean_ (default = false) - ( Quando true, exibe apenas o estado )
+        - **cityOnly** = _Boolean_ (default = false) - ( Quando true, exibe apenas a cidade )
+    - yv-date ( Retorna a data de acordo com o bloco pai )
+      - Props Aceitas:
+        - **showDifference** = _Boolean_ (default = false) - ( Quando true, exibe "x dias/meses/anos atrás" ao invés da data padrão )
+    - yv-review-photo ( Retorna as fotos/imagens enviadas pelo usário que efetuou a avaliação )
+    - yv-like-dislike-button ( Adicona os botões de like e dislike para aquela avaliação seguidas de um label )
+      - Props Aceitas:
+        - **showOnlyLike** = _Boolean_ (default = false) - ( Quando true, exibe apenas o botão de like )
+        - **showOnlyDislike** = _Boolean_ (default = false) - ( Quando true, exibe apenas o botão de dislike )
+        - **hideLabel** = _Boolean_ (default = false) - ( Quando true, esconde o texto "Essa avaliação foi útil?" )
+        - **likeDislikeLabel** = _String_ (opcional) - ( Substitui o texto padrão "Essa avaliação foi útil?" )
+          
+Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L82
 
 <hr>
