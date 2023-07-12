@@ -18,17 +18,22 @@ estrelas do sumario do produto, estrelas do lojista no sumario do produto e estr
 
 ## Blocos
 
-- Reviews / Avaliações: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/blob/main/store/blocks/pdp/product.jsonc#L11C7-L11C7)
-- Perguntas&Respostas / QA: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/blob/main/store/blocks/pdp/product.jsonc#L12)
-- ProductRatingSummary / Estrelas de sumário de produto: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/blob/main/store/blocks/pdp/product.jsonc#L105)
-- ProductRatingInline / Estrelas de prateleira/vitrine dos produtos: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/blob/main/store/blocks/product-summary/product-summary.jsonc#L18)
-- Testimonials / Testemunhos: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/blob/main/store/blocks/home/home.jsonc#L15)
-- Manifest JSON: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/blob/main/manifest.json#L71)
+- Reviews / Avaliações: ()
+- Perguntas&Respostas / QA: ()
+- ProductRatingSummary / Estrelas de sumário de produto: ()
+- ProductRatingInline / Estrelas de prateleira/vitrine dos produtos: ()
+- Testimonials / Testemunhos: ()
+- Manifest JSON: ()
+
+## Personalizações dos blocos
 
 ## Previews
 
 ### Preview Home Page
-![store-theme-default](https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/assets/97966769/c7fb76ae-3fe8-427d-8ef1-02376502bd1c)
+![image](https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/assets/97966769/88f85bd9-107c-463e-957c-33733250587c)
 
 ### Preview Product Page
-![store-theme-default](https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-default/assets/97966769/8e15739d-5801-4996-acfb-6d3eafe1bffc)
+![image](https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/assets/97966769/3a6d4d16-99d2-41cc-8e06-792643f6d1a4)
+
+
+
