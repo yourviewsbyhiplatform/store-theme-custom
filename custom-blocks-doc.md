@@ -141,6 +141,7 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
         - **showOnlyDislike** = _Boolean_ (default = false) - ( Quando true, exibe apenas o botão de dislike )
         - **hideLabel** = _Boolean_ (default = false) - ( Quando true, esconde o texto "Essa avaliação foi útil?" )
         - **likeDislikeLabel** = _String_ (opcional) - ( Substitui o texto padrão "Essa avaliação foi útil?" )
+- yv-writereview-button ( Retorna um botão para que o usuário possa efetuar uma avaliação sobre o produto atual )
           
 Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L82
 
