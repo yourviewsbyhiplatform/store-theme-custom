@@ -18,14 +18,18 @@ estrelas do sumario do produto, estrelas do lojista no sumario do produto e estr
 
 ## Blocos
 
-- Reviews / Avaliações: ()
-- Perguntas&Respostas / QA: ()
-- ProductRatingSummary / Estrelas de sumário de produto: ()
-- ProductRatingInline / Estrelas de prateleira/vitrine dos produtos: ()
-- Testimonials / Testemunhos: ()
-- Manifest JSON: ()
+- Reviews / Avaliações: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/pdp/product.jsonc#L11)
+- Perguntas&Respostas / QA: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/pdp/product.jsonc#L12)
+- ProductRatingSummary / Estrelas de sumário de produto: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/pdp/product.jsonc#L108)
+- ProductRatingInline / Estrelas de prateleira/vitrine dos produtos: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/product-summary/product-summary.jsonc#L19)
+- Testimonials / Testemunhos: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/home/home.jsonc#L15)
+- Manifest JSON: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/manifest.json#L71)
 
 ## Personalizações dos blocos
+Todas as personalizações dos blocos podem ser feitas num arquivo json/jsonc separado para uma melhor organização, neste caso, foi criado um arquivo separado onde é feita toda a personalização dos blocos da yourviews e personalizações do css:
+
+- Blocos: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc
+- CSS: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/styles/css/yourviews.yourviewsreviews.css
 
 ## Previews
 
