@@ -1,0 +1,13 @@
+{
+  "store.seller":{
+    "blocks": [
+      "seller-page",
+      "flex-layout.row#shelf"
+    ]
+  },
+  "seller-page":{
+    "children":[
+      "product-seller-infos"
+    ]
+  }
+}

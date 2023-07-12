@@ -1,0 +1,14 @@
+{
+  "seller-stars": {
+    "component":"SellerStars",
+    "composition": "children"
+  },
+  "store.seller":{
+    "around": ["productWrapper"],
+    "context": "vtex.store/ProductContext"
+  },
+  "seller-page":{
+    "component": "SellerPage",
+    "composition": "children"
+  }
+}

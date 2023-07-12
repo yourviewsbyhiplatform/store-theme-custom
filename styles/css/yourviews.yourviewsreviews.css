@@ -1,0 +1,57 @@
+/* .testimonial-flex {
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px -4px #000;
+  margin-bottom: 10px;
+}
+
+.storeRatings {
+  flex-direction: column;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 12px;
+  color: grey;
+}
+
+.dateText {
+  margin: 0 10px;
+  font-size: 12px;
+  color: grey;
+}
+
+.commentText {
+  margin: 0;
+}
+
+.questionsAndAnswersQuestionWrapper {
+  margin: 20px 0;
+  background-color: #dbdbdb8a;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.reviewsReviewItem {
+  display: flex;
+  background-color: #ececec;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.reviewUser {
+  display: flex;
+  font-size: 12px;
+}
+
+.reviewUser .richText, 
+.reviewUser .userName {
+  margin-right: 5px;
+}
+
+.ratingStarsInactive {
+  fill: #cecece;
+} */
