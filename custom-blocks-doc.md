@@ -24,7 +24,7 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 #### Blocos Aceitos:
 - yv-title ( Retorna o titulo de acordo com o bloco pai )
   - Props Aceitas:
-    - **text** = _String_ - ( Recebe uma string para exibir no lugar do título )
+    - **text** = _String_ (opcional) - ( Recebe uma string para exibir no lugar do título )
 - yv-testimonials-content ( Retorna apénas informações para os blocos filhos que exibe cada informação separada )
   - Blocos Aceitos:
     - yv-rating-stars ( Retorna as estrelas de acordo com o bloco pai )
@@ -59,6 +59,39 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 <hr>
 
 ### 4 - yv-product-questions-and-answers
+
+#### Blocos Aceitos:
+- yv-title ( Retorna o titulo de acordo com o bloco pai )
+  - Props Aceitas:
+    - **text** = _String_ (opcional) - ( Recebe uma string para exibir no lugar do título )
+- yv-subtitle ( Retorna o subtitulo de acordo com o bloco pai )
+  - Props Aceitas:
+    - **text** = _String_ (opcional) - ( Recebe uma string para exibir no lugar do título )
+- yv-question-button ( Retorna o botão para o usuário efetuar uma pergunta sobre o produto )
+- yv-qa-content ( Retorna apénas informações para os blocos filhos que exibe cada informação separada )
+  - Blocos Aceitos:
+    - yv-qa-content ( Retorna apénas informações para os blocos filhos que exibe cada informação separada )
+      - Blocos Aceitos:
+        - yv-user-image ( Retorna foto ou avatar de acordo com o bloco pai )
+        - yv-user-name ( Retorna o nome do usuário de acordo com o bloco pai )
+          - Props Aceitas:
+            - **initialsOnly** = _Boolean_ (default = false) - ( Quando true, exibe apenas as iniciais do nome )
+        - yv-date ( Retorna a data de acordo com o bloco pai )
+          - Props Aceitas:
+            - **showDifference** = _Boolean_ (default = false) - ( Quando true, exibe "x dias/meses/anos atrás" ao invés da data padrão )
+        - yv-comment ( Retorna o comentário da avaliação da loja de acordo com o bloco pai )
+    - yv-qa-content-answer ( Retorna apénas informações para os blocos filhos que exibe cada informação separada )
+      - Blocos Aceitos:
+        - yv-user-image ( Retorna foto ou avatar de acordo com o bloco pai )
+        - yv-user-name ( Retorna o nome do usuário de acordo com o bloco pai )
+          - Props Aceitas:
+            - **initialsOnly** = _Boolean_ (default = false) - ( Quando true, exibe apenas as iniciais do nome )
+        - yv-date ( Retorna a data de acordo com o bloco pai )
+          - Props Aceitas:
+            - **showDifference** = _Boolean_ (default = false) - ( Quando true, exibe "x dias/meses/anos atrás" ao invés da data padrão )
+        - yv-comment ( Retorna o comentário da avaliação da loja de acordo com o bloco pai )
+
+Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L3
 
 <hr>
 
