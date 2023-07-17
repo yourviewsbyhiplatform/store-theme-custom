@@ -84,8 +84,15 @@
       "yv-reviews-details",
       "yv-reviews-field-summary",
       "yv-title#reviews",
-      "yv-reviews-content"
+      "yv-reviews-content",
+      "yv-writereview-button"
     ]
+  },
+
+  "yv-writereview-button":{
+    "props":{
+      "samePage":true
+    }
   },
 
   "yv-reviews-content":{
