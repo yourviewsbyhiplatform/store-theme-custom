@@ -68,7 +68,7 @@
     "vtex.product-context": "0.x"
   },
   "peerDependencies": {
-    "yourviews.yourviewsreviews": "0.x"
+    "yourviews.yourviewsreviews": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
