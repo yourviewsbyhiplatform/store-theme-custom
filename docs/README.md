@@ -6,7 +6,7 @@
 ## Tutorial
 Siga nossa documentação disponível no HELP: https://help.hiplatform.com/docs/instalacao-na-loja
 
-- 1 Instale o app "yourviews.yourviewsreviews@1.5.0"
+- 1 Instale o app "yourviews.yourviewsreviews"
 - 2 Instale o app "vtex.seller-selector" (https://developers.vtex.com/docs/guides/vtex-seller-selector)
 - 3 Insira as peerDependencies no manifest.json (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/manifest.json#L71)
 - 4 Configure o app na seção /admin/apps/yourviews.yourviewsreviews@X.XX.X/setup/ da VTEX IO usando as chaves da sua loja yourviews.
