@@ -9,7 +9,7 @@ Siga nossa documentação disponível no HELP: https://help.hiplatform.com/docs/
 - 1 Instale o app "yourviews.yourviewsreviews"
 - 2 Instale o app "vtex.seller-selector" (https://developers.vtex.com/docs/guides/vtex-seller-selector)
 - 3 Instale o app "vtex.product-review-interfaces" (https://developers.vtex.com/docs/guides/vtex-seller-selector)
-- 4 Insira as peerDependencies no manifest.json
+- 4 Insira as peerDependencies no manifest.json (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/manifest.json#L71)
 - 5 Configure o app na seção /admin/apps/yourviews.yourviewsreviews@X.XX.X/setup/ da VTEX IO usando as chaves da sua loja yourviews.
 - 6 Insira os blocos de avaliações, perguntas e respostas, estrelas de prateleiras, 
 estrelas do sumario do produto, estrelas do lojista no sumario do produto e estrelas de infos do lojista.
@@ -22,7 +22,6 @@ estrelas do sumario do produto, estrelas do lojista no sumario do produto e estr
 - ProductRatingSummary / Estrelas de sumário de produto: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/pdp/product.jsonc#L108)
 - ProductRatingInline / Estrelas de prateleira/vitrine dos produtos: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/product-summary/product-summary.jsonc#L19)
 - Testimonials / Testemunhos: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/home/home.jsonc#L15)
-- Manifest JSON: (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/manifest.json#L71)
 
 ## Personalizações dos blocos
 Todas as personalizações dos blocos podem ser feitas num arquivo json/jsonc separado para uma melhor organização, neste caso, foi criado um arquivo separado onde é feita toda a personalização dos blocos da yourviews e personalizações do css:
