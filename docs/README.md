@@ -6,14 +6,13 @@
 ## Tutorial
 Siga nossa documentação disponível no HELP: https://help.hiplatform.com/docs/instalacao-na-loja
 
-- 1 Instale o app "yourviews.yourviewsreviews"
+- 1 Instale o app "yourviews.yourviewsreviews@1.5.0"
 - 2 Instale o app "vtex.seller-selector" (https://developers.vtex.com/docs/guides/vtex-seller-selector)
-- 3 Instale o app "vtex.product-review-interfaces" (https://developers.vtex.com/docs/guides/vtex-seller-selector)
-- 4 Insira as peerDependencies no manifest.json (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/manifest.json#L71)
-- 5 Configure o app na seção /admin/apps/yourviews.yourviewsreviews@X.XX.X/setup/ da VTEX IO usando as chaves da sua loja yourviews.
-- 6 Insira os blocos de avaliações, perguntas e respostas, estrelas de prateleiras, 
+- 3 Insira as peerDependencies no manifest.json (https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/manifest.json#L71)
+- 4 Configure o app na seção /admin/apps/yourviews.yourviewsreviews@X.XX.X/setup/ da VTEX IO usando as chaves da sua loja yourviews.
+- 5 Insira os blocos de avaliações, perguntas e respostas, estrelas de prateleiras, 
 estrelas do sumario do produto, estrelas do lojista no sumario do produto e estrelas de infos do lojista.
-- 7 Pronto!
+- 6 Pronto!
 
 ## Blocos
 
