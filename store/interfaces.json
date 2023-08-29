@@ -1,13 +1,13 @@
 {
   "seller-stars": {
-    "component":"SellerStars",
+    "component": "SellerStars",
     "composition": "children"
   },
-  "store.seller":{
+  "store.custom#seller": {
     "around": ["productWrapper"],
     "context": "vtex.store/ProductContext"
   },
-  "seller-page":{
+  "seller-page": {
     "component": "SellerPage",
     "composition": "children"
   }

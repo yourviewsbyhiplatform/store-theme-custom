@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
-  "name": "yv-vtexio-store-theme",
-  "version": "5.1.0",
+  "name": "yv-store-theme-custom",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

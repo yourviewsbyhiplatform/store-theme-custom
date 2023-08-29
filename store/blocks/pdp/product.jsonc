@@ -3,7 +3,6 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "link-seller",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
@@ -15,9 +14,7 @@
   },
 
   "flex-layout.row#specifications-title": {
-    "children": [
-      "rich-text#specifications"
-    ]
+    "children": ["rich-text#specifications"]
   },
   "rich-text#specifications": {
     "props": {
@@ -123,15 +120,11 @@
   },
 
   "seller-table": {
-    "children": [
-      "seller-body"
-    ]
+    "children": ["seller-body"]
   },
 
   "seller-body": {
-    "children": [
-      "seller-row"
-    ]
+    "children": ["seller-row"]
   },
 
   "seller-row": {

@@ -1,13 +1,8 @@
 {
-  "store.seller":{
-    "blocks": [
-      "seller-page",
-      "flex-layout.row#shelf"
-    ]
+  "store.custom#seller": {
+    "blocks": ["seller-page", "flex-layout.row#shelf"]
   },
-  "seller-page":{
-    "children":[
-      "product-seller-infos"
-    ]
+  "seller-page": {
+    "children": ["product-seller-infos"]
   }
 }
