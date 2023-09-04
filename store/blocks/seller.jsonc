@@ -1,8 +1,65 @@
 {
   "store.custom#seller": {
-    "blocks": ["seller-page", "flex-layout.row#shelf"]
+    "blocks": ["seller-page", "flex-layout.row#shelf", "seller-testimonials"]
   },
   "seller-page": {
     "children": ["product-seller-infos"]
+  },
+
+  /* TESTIMONIALS FILTERED BY SELLER */
+
+  "seller-testimonials": {
+    "props": {
+      "Testimonials": "yv-testimonials#seller"
+    }
+  },
+  "yv-testimonials#seller": {
+    "children": ["yv-title#seller", "yv-testimonials-content#seller"]
+  },
+  "yv-title#seller": {
+    "props": {
+      "text": "Avaliações"
+    }
+  },
+  "yv-testimonials-content#seller": {
+    "props": {
+      "className": "contentSeller"
+    },
+    "children": ["yv-flex#seller"]
+  },
+  "yv-flex#seller": {
+    "props": {
+      "className": "slideSeller"
+    },
+    "children": ["yv-flex#row1", "yv-flex#row2", "yv-flex#row3"]
+  },
+  "yv-flex#row1": {
+    "children": [
+      "yv-user-name#testimonial",
+      "yv-rating-average",
+      "yv-rating-stars"
+    ]
+  },
+  "yv-user-name#testimonial": {
+    "props": {
+      "className": "reviewUserSeller"
+    }
+  },
+  "yv-flex#row2": {
+    "children": ["yv-date#seller", "yv-rich-text#seller"]
+  },
+  "yv-date#seller": {
+    "props": {
+      "showDifference": true
+    }
+  },
+  "yv-rich-text#seller": {
+    "props": {
+      "text": "atrás",
+      "className": "tempoAtrasSeller"
+    }
+  },
+  "yv-flex#row3": {
+    "children": ["yv-comment"]
   }
 }

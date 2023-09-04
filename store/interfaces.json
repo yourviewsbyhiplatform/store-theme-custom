@@ -3,9 +3,9 @@
     "component": "SellerStars",
     "composition": "children"
   },
-  "store.custom#seller": {
-    "around": ["productWrapper"],
-    "context": "vtex.store/ProductContext"
+  "seller-testimonials": {
+    "component": "SellerTestimonials",
+    "composition": "children"
   },
   "seller-page": {
     "component": "SellerPage",
