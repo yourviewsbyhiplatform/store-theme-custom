@@ -89,6 +89,10 @@
   display: block;
 }
 
+.testimonialContent-contentSeller .carouselStatusDotsWrapper {
+  display: none;
+}
+
 .slideSeller {
   display: flex;
   border: 1px solid #ddd;

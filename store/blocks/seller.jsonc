@@ -35,12 +35,12 @@
   },
   "yv-flex#row1": {
     "children": [
-      "yv-user-name#testimonial",
+      "yv-user-name#sellerReviews",
       "yv-rating-average",
       "yv-rating-stars"
     ]
   },
-  "yv-user-name#testimonial": {
+  "yv-user-name#sellerReviews": {
     "props": {
       "className": "reviewUserSeller"
     }
