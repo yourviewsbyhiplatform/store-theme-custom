@@ -16,7 +16,7 @@ const SellerPage = ({ children, Products }) => {
           alignItems: "center",
         }}
       >
-        <h2>{actualSeller?.sellerName}</h2>
+        <h2>{actualSeller}</h2>
         {children}
       </div>
       <div>
