@@ -10,7 +10,7 @@ mais possibilidades de personaliazão.
 
 ### 1 - yv-product-rating-inline ( bloco pai )
 
-#### Blocos Aceitos:
+#### Blocos Aceitos pelo bloco pai:
 
 - yv-rating-stars ( Retorna as estrelas de acordo com o bloco pai )
   - Props Aceitas:
@@ -29,7 +29,11 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 
 ### 2 - yv-testimonials ( bloco pai )
 
-#### Blocos Aceitos:
+#### Props Aceitas no bloco pai:
+
+- **slidesToShow** = _Object_ (opcional) - ( Recebe um objeto com duas chaves-valores: "desktop" e "mobile", ambas as chaves recebem um valor do tipo _Integer_ que são a quantidade de quantos slides serão exibidos por vez nos testemunhos. ) Exemplo:
+
+#### Blocos Aceitos pelo bloco pai:
 
 - yv-title ( Retorna o titulo de acordo com o bloco pai )
   - Props Aceitas:
@@ -71,7 +75,7 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 
 ### 3 - yv-product-rating-summary ( bloco pai )
 
-#### Blocos Aceitos:
+#### Blocos Aceitos pelo bloco pai:
 
 - yv-rating-stars ( Retorna as estrelas de acordo com o bloco pai )
   - Props Aceitas:
@@ -90,7 +94,7 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 
 ### 4 - yv-product-questions-and-answers ( bloco pai )
 
-#### Blocos Aceitos:
+#### Blocos Aceitos pelo bloco pai:
 
 - yv-title ( Retorna o titulo de acordo com o bloco pai )
   - Props Aceitas:
@@ -142,7 +146,11 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 
 ### 5 - yv-product-reviews ( bloco pai )
 
-#### Blocos Aceitos:
+#### Props Aceitas no bloco pai:
+
+- **hideButtonReview** = _Boolean_ (default = false) - ( Quando true, remove o o botão de escrever avaliação do componente de reviews. )
+
+#### Blocos Aceitos pelo bloco pai:
 
 - yv-title ( Retorna o titulo de acordo com o bloco pai )
   - Props Aceitas:

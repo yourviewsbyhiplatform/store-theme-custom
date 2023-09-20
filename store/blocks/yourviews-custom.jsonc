@@ -1,275 +1,281 @@
 {
-  // /* ================================ testimonials ================================ */
-  // "yv-testimonials": {
-  //   "children": ["yv-title#testimonial", "yv-testimonials-content"]
-  // },
-  // "yv-title#testimonial": {
-  //   "props": {
-  //     "text": "Depoimentos dos Clientes"
-  //   }
-  // },
-  // "yv-testimonials-content": {
-  //   "children": ["yv-flex#slide"]
-  // },
-  // "yv-flex#slide": {
-  //   "props": {
-  //     "className": "testimonial-flex"
-  //   },
-  //   "children": [
-  //     "yv-rating-stars",
-  //     "yv-date",
-  //     "yv-user-image",
-  //     "yv-user-name#testimonial",
-  //     "yv-user-localization#testimonial",
-  //     "yv-comment",
-  //     "yv-store-ratings"
-  //   ]
-  // },
-  // "yv-user-localization#testimonial": {
-  //   "props": {
-  //     "stateOnly": false,
-  //     "cityOnly": false
-  //   }
-  // },
-  // "yv-user-name#testimonial": {
-  //   "props": {
-  //     "initialsOnly": false
-  //   }
-  // },
-  // /* ================================ rating inline (shelfs stars / estrelas de prateleiras) ================================ */
-  // "yv-product-rating-inline": {
-  //   "children": ["yv-total-rating", "yv-rating-stars"]
-  // },
-  // /* ================================ rating summary (product stars / estrelas do sumário do produto) ================================ */
-  // "yv-product-rating-summary": {
-  //   "children": ["yv-flex#rating-summary"]
-  // },
-  // "yv-flex#rating-summary": {
-  //   "props": {
-  //     "direction": "row",
-  //     "alignItems": "center"
-  //   },
-  //   "children": ["yv-rating-stars", "yv-total-rating#rating-summary"]
-  // },
-  // "yv-total-rating#rating-summary": {
-  //   "props": {
-  //     "numberOnly": true
-  //   }
-  // },
-  // /* ================================ reviews ================================ */
-  // "yv-product-reviews": {
-  //   "children": [
-  //     "yv-reviews-details",
-  //     "yv-reviews-field-summary",
-  //     "yv-orderby-select",
-  //     "yv-title#reviews",
-  //     "yv-reviews-content",
-  //     "yv-writereview-button"
-  //   ]
-  // },
-  // "yv-writereview-button": {
-  //   "props": {
-  //     "samePage": true
-  //   }
-  // },
-  // "yv-reviews-content": {
-  //   "children": ["yv-content-review"]
-  // },
-  // "yv-content-review": {
-  //   "children": ["yv-flex#review-col-1", "yv-flex#review-col-2"]
-  // },
-  // "yv-store-comment": {
-  //   "children": ["yv-rich-text#storeCommentTitle", "yv-comment", "yv-date"]
-  // },
-  // "yv-flex#review-col-1": {
-  //   "props": {
-  //     "direction": "column",
-  //     "width": "8%",
-  //     "alignItems": "center",
-  //     "justifyContent": "center"
-  //   },
-  //   "children": ["yv-user-image", "yv-user-name", "yv-user-localization"]
-  // },
-  // "yv-flex#review-col-2": {
-  //   "props": {
-  //     "direction": "column",
-  //     "width": "92%"
-  //   },
-  //   "children": [
-  //     "yv-flex#review-row-1",
-  //     "yv-flex#review-row-2",
-  //     "yv-flex#review-row-4",
-  //     "yv-flex#review-row-5",
-  //     "yv-flex#review-row-3",
-  //     "yv-flex#review-row-6"
-  //     //"yv-flex#review-row-7"
-  //   ]
-  // },
-  // "yv-flex#review-row-1": {
-  //   "props": {
-  //     "direction": "row",
-  //     "justifyContent": "space-between"
-  //   },
-  //   "children": ["yv-rating-stars", "yv-date"]
-  // },
-  // "yv-flex#review-row-2": {
-  //   "props": {
-  //     "direction": "row",
-  //     "justifyContent": "space-between",
-  //     "marginTop": "10px",
-  //     "marginBotton": "10px"
-  //   },
-  //   "children": ["yv-comment"]
-  // },
-  // "yv-flex#review-row-3": {
-  //   "props": {
-  //     "direction": "row",
-  //     "justifyContent": "flex-start",
-  //     "alignItems": "center"
-  //   },
-  //   "children": ["yv-like-dislike-buttons"]
-  // },
-  // "yv-flex#review-row-4": {
-  //   "props": {
-  //     "direction": "row",
-  //     "justifyContent": "space-between"
-  //   },
-  //   "children": ["yv-custom-fields"]
-  // },
-  // "yv-flex#review-row-5": {
-  //   "props": {
-  //     "direction": "row",
-  //     "justifyContent": "space-between"
-  //   },
-  //   "children": ["yv-review-photo"]
-  // },
-  // "yv-flex#review-row-6": {
-  //   "props": {
-  //     "direction": "row",
-  //     "justifyContent": "space-between"
-  //   },
-  //   "children": ["yv-store-comment"]
-  // },
-  // "yv-rich-text#storeCommentTitle": {
-  //   "props": {
-  //     "text": "Comentário da loja: ",
-  //     "className": "storeCommentTitle"
-  //   }
-  // },
-  // "yv-flex#review-row-7": {
-  //   "props": {
-  //     "direction": "row",
-  //     "className": "reviewUser"
-  //   },
-  //   "children": [
-  //     "yv-rich-text#reviewUser",
-  //     "yv-user-name",
-  //     "yv-rich-text#reviewUser2",
-  //     "yv-user-localization"
-  //   ]
-  // },
-  // "yv-rich-text#reviewUser": {
-  //   "props": {
-  //     "text": "Avaliado por: "
-  //   }
-  // },
-  // "yv-rich-text#reviewUser2": {
-  //   "props": {
-  //     "text": " / "
-  //   }
-  // },
-  // "yv-date#review": {
-  //   "props": {
-  //     "showDifference": true
-  //   }
-  // },
-  // "yv-reviews-details": {
-  //   "children": [
-  //     "yv-reviews-histogram",
-  //     "yv-flex#reviewsRating",
-  //     "yv-reviews-recommend"
-  //   ]
-  // },
-  // "yv-reviews-field-summary": {
-  //   "children": ["yv-field-summary-title", "yv-rating-stars", "yv-total-rating"]
-  // },
-  // "yv-flex#reviewsRating": {
-  //   "children": ["yv-rating-stars", "yv-rating-average", "yv-total-rating"]
-  // },
-  // "yv-reviews-histogram": {
-  //   "children": ["yv-histogram-title", "yv-histogram-bar", "yv-histogram-total"]
-  // },
-  // "yv-title#reviews": {
-  //   "props": {
-  //     "text": "Avaliações dos nossos clientes"
-  //   }
-  // },
-  // /* ================================ questions and awnswers ================================ */
-  // "yv-product-questions-and-answers": {
-  //   "children": [
-  //     "yv-title#qa",
-  //     "yv-subtitle",
-  //     "yv-question-button",
-  //     "yv-qa-content"
-  //   ]
-  // },
-  // "yv-qa-content": {
-  //   "children": ["yv-qa-content-question", "yv-qa-content-answer"]
-  // },
-  // "yv-qa-content-answer": {
-  //   "children": ["yv-flex#question-row"]
-  // },
-  // "yv-qa-content-question": {
-  //   "children": ["yv-flex#question-row"]
-  // },
-  // "yv-flex#question-row": {
-  //   "props": {
-  //     "width": "100%",
-  //     "direciton": "column",
-  //     "className": "qa-flex-row"
-  //   },
-  //   "children": ["yv-flex#question-col-left", "yv-flex#question-col-right"]
-  // },
-  // "yv-flex#question-col-left": {
-  //   "props": {
-  //     "width": "5%",
-  //     "className": "qa-flex-col-left"
-  //   },
-  //   "children": ["yv-user-image"]
-  // },
-  // "yv-flex#question-col-right": {
-  //   "props": {
-  //     "width": "95%",
-  //     "direction": "column",
-  //     "className": "qa-flex-col-right",
-  //     "justifyContent": "center"
-  //   },
-  //   "children": [
-  //     "yv-flex#question-row-1",
-  //     "yv-comment",
-  //     "yv-like-dislike-buttons"
-  //   ]
-  // },
-  // "yv-flex#question-row-1": {
-  //   "props": {
-  //     "width": "30%",
-  //     "className": "qa-flex-row-1"
-  //   },
-  //   "children": ["yv-user-name", "yv-date#diff"]
-  // },
-  // "yv-date#diff": {
-  //   "props": {
-  //     "showDifference": true
-  //   }
-  // },
-  // "yv-subtitle": {
-  //   "props": {
-  //     "text": "Tire sua duvida aqui!"
-  //   }
-  // },
-  // "yv-title#qa": {
-  //   "props": {
-  //     "text": "Perguntas e Respostas dos Clientes"
-  //   }
-  // }
+  /* ================================ testimonials ================================ */
+  "yv-testimonials": {
+    "props": {
+      "slidesToShow": {
+        "desktop": 3,
+        "mobile": 1
+      }
+    },
+    "children": ["yv-title#testimonial", "yv-testimonials-content"]
+  },
+  "yv-title#testimonial": {
+    "props": {
+      "text": "Depoimentos dos Clientes"
+    }
+  },
+  "yv-testimonials-content": {
+    "children": ["yv-flex#slide"]
+  },
+  "yv-flex#slide": {
+    "props": {
+      "className": "testimonial-flex"
+    },
+    "children": [
+      "yv-rating-stars",
+      "yv-date",
+      "yv-user-image",
+      "yv-user-name#testimonial",
+      "yv-user-localization#testimonial",
+      "yv-comment",
+      "yv-store-ratings"
+    ]
+  },
+  "yv-user-localization#testimonial": {
+    "props": {
+      "stateOnly": false,
+      "cityOnly": false
+    }
+  },
+  "yv-user-name#testimonial": {
+    "props": {
+      "initialsOnly": false
+    }
+  },
+  /* ================================ rating inline (shelfs stars / estrelas de prateleiras) ================================ */
+  "yv-product-rating-inline": {
+    "children": ["yv-total-rating", "yv-rating-stars"]
+  },
+  /* ================================ rating summary (product stars / estrelas do sumário do produto) ================================ */
+  "yv-product-rating-summary": {
+    "children": ["yv-flex#rating-summary"]
+  },
+  "yv-flex#rating-summary": {
+    "props": {
+      "direction": "row",
+      "alignItems": "center"
+    },
+    "children": ["yv-rating-stars", "yv-total-rating#rating-summary"]
+  },
+  "yv-total-rating#rating-summary": {
+    "props": {
+      "numberOnly": true
+    }
+  },
+  /* ================================ reviews ================================ */
+  "yv-product-reviews": {
+    "children": [
+      "yv-reviews-details",
+      "yv-reviews-field-summary",
+      "yv-orderby-select",
+      "yv-title#reviews",
+      "yv-reviews-content",
+      "yv-writereview-button"
+    ]
+  },
+  "yv-writereview-button": {
+    "props": {
+      "samePage": true
+    }
+  },
+  "yv-reviews-content": {
+    "children": ["yv-content-review"]
+  },
+  "yv-content-review": {
+    "children": ["yv-flex#review-col-1", "yv-flex#review-col-2"]
+  },
+  "yv-store-comment": {
+    "children": ["yv-rich-text#storeCommentTitle", "yv-comment", "yv-date"]
+  },
+  "yv-flex#review-col-1": {
+    "props": {
+      "direction": "column",
+      "width": "8%",
+      "alignItems": "center",
+      "justifyContent": "center"
+    },
+    "children": ["yv-user-image", "yv-user-name", "yv-user-localization"]
+  },
+  "yv-flex#review-col-2": {
+    "props": {
+      "direction": "column",
+      "width": "92%"
+    },
+    "children": [
+      "yv-flex#review-row-1",
+      "yv-flex#review-row-2",
+      "yv-flex#review-row-4",
+      "yv-flex#review-row-5",
+      "yv-flex#review-row-3",
+      "yv-flex#review-row-6"
+      //"yv-flex#review-row-7"
+    ]
+  },
+  "yv-flex#review-row-1": {
+    "props": {
+      "direction": "row",
+      "justifyContent": "space-between"
+    },
+    "children": ["yv-rating-stars", "yv-date"]
+  },
+  "yv-flex#review-row-2": {
+    "props": {
+      "direction": "row",
+      "justifyContent": "space-between",
+      "marginTop": "10px",
+      "marginBotton": "10px"
+    },
+    "children": ["yv-comment"]
+  },
+  "yv-flex#review-row-3": {
+    "props": {
+      "direction": "row",
+      "justifyContent": "flex-start",
+      "alignItems": "center"
+    },
+    "children": ["yv-like-dislike-buttons"]
+  },
+  "yv-flex#review-row-4": {
+    "props": {
+      "direction": "row",
+      "justifyContent": "space-between"
+    },
+    "children": ["yv-custom-fields"]
+  },
+  "yv-flex#review-row-5": {
+    "props": {
+      "direction": "row",
+      "justifyContent": "space-between"
+    },
+    "children": ["yv-review-photo"]
+  },
+  "yv-flex#review-row-6": {
+    "props": {
+      "direction": "row",
+      "justifyContent": "space-between"
+    },
+    "children": ["yv-store-comment"]
+  },
+  "yv-rich-text#storeCommentTitle": {
+    "props": {
+      "text": "Comentário da loja: ",
+      "className": "storeCommentTitle"
+    }
+  },
+  "yv-flex#review-row-7": {
+    "props": {
+      "direction": "row",
+      "className": "reviewUser"
+    },
+    "children": [
+      "yv-rich-text#reviewUser",
+      "yv-user-name",
+      "yv-rich-text#reviewUser2",
+      "yv-user-localization"
+    ]
+  },
+  "yv-rich-text#reviewUser": {
+    "props": {
+      "text": "Avaliado por: "
+    }
+  },
+  "yv-rich-text#reviewUser2": {
+    "props": {
+      "text": " / "
+    }
+  },
+  "yv-date#review": {
+    "props": {
+      "showDifference": true
+    }
+  },
+  "yv-reviews-details": {
+    "children": [
+      "yv-reviews-histogram",
+      "yv-flex#reviewsRating",
+      "yv-reviews-recommend"
+    ]
+  },
+  "yv-reviews-field-summary": {
+    "children": ["yv-field-summary-title", "yv-rating-stars", "yv-total-rating"]
+  },
+  "yv-flex#reviewsRating": {
+    "children": ["yv-rating-stars", "yv-rating-average", "yv-total-rating"]
+  },
+  "yv-reviews-histogram": {
+    "children": ["yv-histogram-title", "yv-histogram-bar", "yv-histogram-total"]
+  },
+  "yv-title#reviews": {
+    "props": {
+      "text": "Avaliações dos nossos clientes"
+    }
+  },
+  /* ================================ questions and awnswers ================================ */
+  "yv-product-questions-and-answers": {
+    "children": [
+      "yv-title#qa",
+      "yv-subtitle",
+      "yv-question-button",
+      "yv-qa-content"
+    ]
+  },
+  "yv-qa-content": {
+    "children": ["yv-qa-content-question", "yv-qa-content-answer"]
+  },
+  "yv-qa-content-answer": {
+    "children": ["yv-flex#question-row"]
+  },
+  "yv-qa-content-question": {
+    "children": ["yv-flex#question-row"]
+  },
+  "yv-flex#question-row": {
+    "props": {
+      "width": "100%",
+      "direciton": "column",
+      "className": "qa-flex-row"
+    },
+    "children": ["yv-flex#question-col-left", "yv-flex#question-col-right"]
+  },
+  "yv-flex#question-col-left": {
+    "props": {
+      "width": "5%",
+      "className": "qa-flex-col-left"
+    },
+    "children": ["yv-user-image"]
+  },
+  "yv-flex#question-col-right": {
+    "props": {
+      "width": "95%",
+      "direction": "column",
+      "className": "qa-flex-col-right",
+      "justifyContent": "center"
+    },
+    "children": [
+      "yv-flex#question-row-1",
+      "yv-comment",
+      "yv-like-dislike-buttons"
+    ]
+  },
+  "yv-flex#question-row-1": {
+    "props": {
+      "width": "30%",
+      "className": "qa-flex-row-1"
+    },
+    "children": ["yv-user-name", "yv-date#diff"]
+  },
+  "yv-date#diff": {
+    "props": {
+      "showDifference": true
+    }
+  },
+  "yv-subtitle": {
+    "props": {
+      "text": "Tire sua duvida aqui!"
+    }
+  },
+  "yv-title#qa": {
+    "props": {
+      "text": "Perguntas e Respostas dos Clientes"
+    }
+  }
 }
