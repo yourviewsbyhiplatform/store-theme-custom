@@ -3,8 +3,10 @@
   "yv-testimonials": {
     "props": {
       "slidesToShow": {
+        "tinyMobile": 1,
+        "mobile": 1,
         "desktop": 3,
-        "mobile": 1
+        "bigDesktop": 3
       }
     },
     "children": ["yv-title#testimonial", "yv-testimonials-content"]

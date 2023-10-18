@@ -31,7 +31,12 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
 
 #### Props Aceitas no bloco pai:
 
-- **slidesToShow** = _Object_ (opcional) - ( Recebe um objeto com duas chaves-valores: "desktop" e "mobile", ambas as chaves recebem um valor do tipo _Integer_ que são a quantidade de quantos slides serão exibidos por vez nos testemunhos. ) Exemplo:
+- **slidesToShow** = _Object_ (opcional) - ( Recebe um objeto com quatro chaves-valores:
+  "tinyMobile" para telas menores que 375px
+  "mobile" para telas menores que 600px e maiores que 375px
+  "desktop" para telas menores que 990px e maiores que 600px
+  "bigDesktop" para telas maiores que 990px
+  todas as chaves recebem um valor do tipo _Integer_ que são a quantidade de quantos slides serão exibidos por vez nos testemunhos. )
 
 #### Blocos Aceitos pelo bloco pai:
 
