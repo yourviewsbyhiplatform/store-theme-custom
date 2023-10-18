@@ -25,7 +25,7 @@ estrelas do sumario do produto, estrelas do lojista no sumario do produto e estr
 ## Personalizações dos blocos
 Todas as personalizações dos blocos podem ser feitas num arquivo json/jsonc separado para uma melhor organização, neste caso, foi criado um arquivo separado onde é feita toda a personalização dos blocos da yourviews e personalizações do css:
 
-- Documentação: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/custom-blocks-doc.md
+- Documentação: https://github.com/luisfkandriolohi/yv-store-theme-custom/blob/main/docs/CUSTOM-BLOCKS.md
 
 - Blocos: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc
 - CSS: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/styles/css/yourviews.yourviewsreviews.css
