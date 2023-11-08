@@ -114,3 +114,18 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+.histogramBarColor {
+  background-color: #ffd327;
+}
+.ratingStarsActive {
+  fill: #ffd327;
+}
+.recommendPercentBorder {
+  border-color: #ffd327;
+}
+
+.reviewsContainer,
+.questionsAndAnswersContainer {
+  padding: 32px;
+}
