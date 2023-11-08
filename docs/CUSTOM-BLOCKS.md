@@ -247,7 +247,8 @@ Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom
           - **likeDislikeLabel** = _String_ (opcional) - ( Substitui o texto padrão "Essa avaliação foi útil?" )
           - **className** = _String_ (opcional) - ( Adiciona uma classe no bloco para que seja possivel efetuar personalizações css mais elaboradas )
 - yv-writereview-button ( Retorna um botão para que o usuário possa efetuar uma avaliação sobre o produto atual )
-  - Props Aceitas: - **samePage** = _Boolean_ (default = false) - ( Quando true, exibe o formulario de avaliacao na mesma pagina )
+    Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L82
+- yv-reviewform-component ( Retorna o formulário gerado após clicar no botão de escrever avalicao )
     Exemplo: https://github.com/luisfkandriolohi/vtexio-yourviews-store-theme-custom/blob/main/store/blocks/yourviews-custom.jsonc#L82
 
 <hr>
