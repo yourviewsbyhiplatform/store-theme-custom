@@ -72,13 +72,9 @@
       "yv-orderby-select",
       "yv-title#reviews",
       "yv-reviews-content",
-      "yv-writereview-button"
+      "yv-writereview-button",
+      "yv-reviewform-component"
     ]
-  },
-  "yv-writereview-button": {
-    "props": {
-      "samePage": true
-    }
   },
   "yv-reviews-content": {
     "children": ["yv-content-review"]
