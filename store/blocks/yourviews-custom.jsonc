@@ -72,8 +72,7 @@
       "yv-orderby-select",
       "yv-title#reviews",
       "yv-reviews-content",
-      "yv-writereview-button",
-      "yv-reviewform-component"
+      "yv-writereview-button"
     ]
   },
   "yv-reviews-content": {
@@ -105,8 +104,8 @@
       "yv-flex#review-row-4",
       "yv-flex#review-row-5",
       "yv-flex#review-row-3",
-      "yv-flex#review-row-6"
-      //"yv-flex#review-row-7"
+      "yv-flex#review-row-6",
+      "yv-flex#review-row-7"
     ]
   },
   "yv-flex#review-row-1": {
