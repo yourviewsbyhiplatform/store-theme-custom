@@ -75,6 +75,11 @@
       "yv-writereview-button"
     ]
   },
+  "yv-orderby-select": {
+    "props": {
+      "orderBy": 2
+    }
+  },
   "yv-reviews-content": {
     "children": ["yv-content-review"]
   },
